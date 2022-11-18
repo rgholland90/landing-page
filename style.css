@@ -153,3 +153,53 @@ h2 {
     font-size: 24px;
     font-weight: 600;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 4rem;
+}
+
+.cta__container {
+    background-color: #3882F6;
+    max-width: 1000px;
+    border-radius: 5px;
+    padding: 3rem 6rem;
+    flex-grow: 1;
+    display: flex;
+}
+
+.cta__container p {
+    margin-top: 0.5rem;
+    color: #E5E7EB;
+}
+
+.cta__container-right {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.cta__button {
+    background-color: #3882F6;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    border-radius: 7px;
+    border-color: white;
+    font: inherit;
+    box-shadow: none;
+}
+
+.cta__button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1F2937;
+    padding-block: 2rem;
+    color: #E5E7EB;
+    text-align: center;
+}
